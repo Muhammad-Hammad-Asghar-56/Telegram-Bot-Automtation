@@ -45,3 +45,4 @@ async def startBot():
                 lastMessage = msg_id
             await asyncio.sleep(10)
 
+asyncio.run(startBot())
