@@ -44,5 +44,4 @@ async def startBot():
                 task = asyncio.create_task(run_SendReaction( chat_id,msg_id))  # Run in the event loop concurrently
                 lastMessage = msg_id
             await asyncio.sleep(10)
-
-asyncio.run(startBot())
+await startBot()
